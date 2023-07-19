@@ -2,9 +2,8 @@ import unittest
 import math
 import sys
 
-sys.path.insert(0,'D:/Programs/Personal/Library/medium')
-# sys.path.insert(0,'medium\medium_multi')
-from medium.medium_multi.multi import Multiplication
+
+from ..medium_multi.multi import Multiplication
 
 class MultiplicationTestCase(unittest.TestCase):
 
