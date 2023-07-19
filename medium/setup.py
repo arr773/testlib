@@ -15,7 +15,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 # This call to setup() does all the work
 setup(
-    name="medium-multi",
+    name="medium",
     version="0.1.0",
     description="Demo library",
     long_description=long_description,
@@ -35,7 +35,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent"
     ],
-    packages=["medium_multi"],
+    packages=find_packages(),
     include_package_data=True,
     install_requires=["numpy"]
 )
