@@ -1,1 +1,7 @@
 numpy
+pandas
+scipy
+skleran
+reportlab
+matplotlib
+io
