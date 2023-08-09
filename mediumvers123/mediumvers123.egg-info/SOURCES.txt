@@ -2,6 +2,7 @@ README.md
 setup.py
 medium_multi/__init__.py
 medium_multi/multi.py
+medium_multi/stats.py
 mediumvers123.egg-info/PKG-INFO
 mediumvers123.egg-info/SOURCES.txt
 mediumvers123.egg-info/dependency_links.txt

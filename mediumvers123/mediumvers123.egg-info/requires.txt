@@ -1,7 +1,7 @@
 numpy
 pandas
 scipy
-skleran
+sklearn
 reportlab
 matplotlib
 io
