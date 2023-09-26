@@ -3,13 +3,15 @@ A small demo library for a Medium publication about publishing libraries.
 
 ### Installation
 ```
-pip install mediumvers123
+pip install synthetic_rx
 ```
 
 ### Get started
 How to multiply one number by another with this lib:
 
 ```Python
+import pandas as pd
+from rx.stats import reportgeneration
 real_data = pd.read_csv("real data url")
 synthetic_data = pd.read_csv('synthetic data url')
 output="output.pdf"
