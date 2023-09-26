@@ -15,15 +15,15 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 # This call to setup() does all the work
 setup(
-    name="mediumvers123",
-    version="0.1.2",
-    description="Demo library",
+    name="synthetic_rx",
+    version="0.1.0",
+    description="Synthetic Rx Generator Library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://medium-multiply.readthedocs.io/",
-    author="Joffrey Bienvenu",
-    author_email="example@email.com",
-    license="MIT",
+    url="",
+    author="Aaryan Agarwal",
+    author_email="aaryanagarwalinus@gmail.com",
+    license="IUB",
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",

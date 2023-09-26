@@ -13,10 +13,9 @@
 # #python setup.py sdist bdist_wheel
 # #python -m twine check dist/*
 # #python -m twine upload dist/*
-# # username=TestLib
-# # password=test_lib
+
 import pandas as pd
-from medium_multi.stats import reportgeneration
+from rx.stats import reportgeneration
 real_data = pd.read_csv("titanic_train.csv")
 synthetic_data = pd.read_csv('gretel_titanic_data.csv')
 output="test.pdf"
