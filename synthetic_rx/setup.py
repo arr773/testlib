@@ -16,14 +16,14 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="synthetic_rx",
-    version="0.1.3",
+    version="0.1.5",
     description="Synthetic Rx Generator Library",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="",
-    author="Aaryan Agarwal",
+    author="Aaryan Agarwal, Shirish Singh",
     author_email="aaryanagarwalinus@gmail.com",
-    license="IUB",
+    license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
@@ -37,5 +37,5 @@ setup(
     ],
     packages=find_packages(),
     include_package_data=True,
-    install_requires=["numpy","pandas","scipy","sklearn","reportlab","matplotlib","io"]
+    install_requires=["numpy","pandas","scipy","scikit-learn","reportlab","matplotlib"]
 )

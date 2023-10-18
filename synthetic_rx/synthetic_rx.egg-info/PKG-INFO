@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: synthetic-rx
-Version: 0.1.3
+Version: 0.1.5
 Summary: Synthetic Rx Generator Library
 Home-page: UNKNOWN
-Author: Aaryan Agarwal
+Author: Aaryan Agarwal, Shirish Singh
 Author-email: aaryanagarwalinus@gmail.com
-License: IUB
+License: MIT
 Platform: UNKNOWN
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
